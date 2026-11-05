@@ -8,26 +8,34 @@
   h1{font-size:1.8rem;margin-bottom:.2rem} h2{font-size:1.15rem;margin-top:2rem}
   .meta{color:#6e6e73;font-size:.9rem;margin-top:0} footer{margin-top:3rem;font-size:.85rem;color:#6e6e73}
 </style></head>
-<body><h1>Privacy Policy</h1><p class="meta">Martin Reels (Vibetesting) · Effective 3 November 2026</p>
+<body><h1>Privacy Policy</h1><p class="meta">Martin Reels (Vibetesting) · Last updated 5 November 2026</p>
 
-<p><strong>Martin Reels</strong> is a private automation tool operated by Martin Homola. It publishes short educational videos that he creates to his own social media channels (YouTube, Instagram and Facebook). It is not a public service, and it has no users other than its owner.</p>
-<h2>Data the tool accesses</h2>
-<p>With the owner's explicit authorisation, the tool uses these Google OAuth scopes for the owner's own YouTube channel only:</p>
+<p><strong>Martin Reels</strong> is a private automation tool operated by Martin Homola. It publishes short educational videos that he creates to his own channels on YouTube, Instagram and Facebook. It is not a public service and has no users other than its owner.</p>
+
+<h2>YouTube API Services</h2>
+<p>Martin Reels uses the <strong>YouTube API Services</strong> to upload videos to the owner's YouTube channel. By using Martin Reels you agree to be bound by the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. Google's handling of data is described in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+<h2>Information the tool accesses, uses and stores</h2>
+<p>With the owner's explicit authorisation (Google OAuth 2.0), the tool uses these scopes for the owner's own YouTube channel only:</p>
 <ul>
-<li><code>youtube.upload</code> — to upload the owner's videos to the owner's channel;</li>
-<li><code>youtube.readonly</code> — to read basic information and statistics about the owner's own channel and videos.</li>
+<li><code>youtube.upload</code>: to upload the owner's videos, with their title, description and tags, to the owner's channel (YouTube Data API <code>videos.insert</code>);</li>
+<li><code>youtube.readonly</code>: to confirm which channel is connected and read its basic statistics (<code>channels.list</code>, <code>videos.list</code>).</li>
 </ul>
-<p>It also publishes to the owner's own Facebook Page and Instagram professional account through Meta's Graph API.</p>
-<h2>What we do not do</h2>
-<p>The tool does not collect, store, sell, or share personal data about members of the public. It does not access any account other than the owner's.</p>
-<h2>Storage and security</h2>
-<p>Access tokens are stored only in the owner's private environment (encrypted secrets) and are never shared with third parties.</p>
+<p>Stored: the OAuth refresh token (in the owner's encrypted secrets store) and the ID and link of each uploaded video (in the tool's private log, so the owner can find his own videos). Channel and video statistics are shown to the owner and are not stored for more than 30 days.</p>
+<p>The tool also publishes to the owner's own Facebook Page and Instagram professional account through Meta's Graph API.</p>
+
+<h2>Sharing</h2>
+<p>No YouTube or Google user data is sold or shared with third parties. The only place a result is sent is the owner's own private Telegram chat, where the tool sends him the link to the video it uploaded. The tool does not use cookies and does not collect any data about visitors to this website or members of the public.</p>
+
 <h2>Google API Services User Data Policy</h2>
-<p>The tool's use of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements. Google user data is used only to provide the features above.</p>
-<h2>Revoking access</h2>
-<p>Access can be revoked at any time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a> (Google) or in Facebook's <em>Business integrations</em> settings (Meta).</p>
+<p>The tool's use of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+<h2>Revoking access and deleting data</h2>
+<p>Access can be revoked at any time on the Google security settings page: <a href="https://security.google.com/settings/security/permissions">security.google.com/settings/security/permissions</a>. For Meta, use Facebook's <em>Business integrations</em> settings.</p>
+<p>When access is revoked, or on request through the contact below, the stored tokens and all stored API data are deleted within 7 days. Videos already uploaded stay on the owner's YouTube channel and can be deleted there in YouTube Studio.</p>
+
 <h2>Contact</h2>
-<p>Questions about this policy: Instagram <a href="https://www.instagram.com/martinhomola_ai/">@martinhomola_ai</a> or the <a href="https://www.facebook.com/1011444448729584">Vibetesting Facebook Page</a>.</p>
+<p>Instagram <a href="https://www.instagram.com/martinhomola_ai/">@martinhomola_ai</a> or the <a href="https://www.facebook.com/1011444448729584">Vibetesting Facebook Page</a>.</p>
 
 <footer><a href="https://homolamartin1-ai.github.io/martin-reels/">Martin Reels</a> · <a href="https://homolamartin1-ai.github.io/privacy.html">Privacy Policy</a> · <a href="https://homolamartin1-ai.github.io/terms.html">Terms of Service</a></footer>
 </body></html>
